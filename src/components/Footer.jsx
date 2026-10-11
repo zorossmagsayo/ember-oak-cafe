@@ -12,7 +12,7 @@ export default function Footer() {
           <p>{cafe.phone}</p>
           <p>{cafe.instagram}</p>
         </div>
-        <p className="footer__copy">© {new Date().getFullYear()} {cafe.name}. A portfolio project.</p>
+        <p className="footer__copy">© {new Date().getFullYear()} {cafe.name}.</p>
       </div>
     </footer>
   );
